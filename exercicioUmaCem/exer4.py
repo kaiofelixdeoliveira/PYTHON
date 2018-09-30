@@ -1,0 +1,8 @@
+nome=input('digite algo')
+print('qual o tipo primitivo?',type(nome))
+print('é numerico?',nome.isnumeric())
+print('é alfanumerico?',nome.isalnum())
+print('é alfabético?',nome.isalpha())
+print('é maiuscula?',nome.isupper())
+print('é minuscula?',nome.islower())
+print('é capitalizada?',nome.istitle())
